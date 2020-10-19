@@ -4,6 +4,7 @@ import reduxLogo from './reduxLogo.svg';
 import './App.css';
 
 import Posts from './components/Posts';
+import PostForm from './components/PostForm';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <img src={reduxLogo} className="App-redux-logo" alt="redux logo" />
         <p>Welcome to React</p>
       </header>
+      <PostForm />
+      <br/>
       <Posts />
     </div>
   );
